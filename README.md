@@ -4,23 +4,28 @@ This application creates an authentication interface using passport npm package,
 
 The files and technologies within this application are listed below with their respective functions and definition. Below each explanation there is a link the website of the technology defined.
 
-Technologies:
-
-Middleware: A software that acts as a liaison so to speak between an operating system and the
+Middleware is software that acts as a liaison so to speak between an operating system and the
 applications running on it. There are many forms of middleware technology which are used to transer information from one program to another. 
 
 An example: req(request),res(response) which are objects that are part of the function process in the applications request-response cycle.
 
-In this case we are using "Express" and "Passport" as our middleware functions. There are also other npm packages.
+In this case we are using "Passport" as our authentication middleware npm package. There are also other npm packages which are defined below.
+
+
+Technologies:
+
+Passport/Passport-Session: 
+
+Passport is express compatible authenitcation for Node.js. This allows us to store and control login in data from the user and provide security for said data. We create and initialize our Passport login session using passport npm package.
+
+https://www.npmjs.com/package/passport
 
 
 Express: Express itself is comprised of wholly middleware functions. It's a web framework that let's you structure a web application to handle multiple different http requests at a specific url. By it's design it makes developing websites, web apps, & API's much easier.
 
 https://www.npmjs.com/package/express
 
-Passport/Passport-Session: Passport is express compatible authenitcation for Node.js. This allows us to store and control login in data from the user and provide security for said data. We create and initialize our Passport login session using passport npm package.
 
-https://www.npmjs.com/package/passport
 
 bcrypt: An npm package used as a secured way to store passwords in the database.
 

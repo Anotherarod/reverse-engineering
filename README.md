@@ -5,7 +5,7 @@ This application creates an authentication interface using passport npm package,
 The files and technologies within this application are listed below with their respective functions and definition. Below each explanation there is a link the website of the technology defined.
 
 Middleware is software that acts as a liaison so to speak between an operating system and the
-applications running on it. There are many forms of middleware technology which are used to transer information from one program to another. 
+applications running on it. There are many forms of middleware technology which are used to transfer information from one program to another. 
 
 An example: req(request),res(response) which are objects that are part of the function process in the applications request-response cycle.
 
